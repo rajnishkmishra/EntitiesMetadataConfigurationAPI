@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Models\\EntitiesMetadataConfigurationAPI.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Models\\EntitiesMetadataConfigurationAPI.Models.csproj",
+        "projectName": "EntitiesMetadataConfigurationAPI.Models",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Models\\EntitiesMetadataConfigurationAPI.Models.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Services\\EntitiesMetadataConfigurationAPI.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Services\\EntitiesMetadataConfigurationAPI.Services.csproj",
+        "projectName": "EntitiesMetadataConfigurationAPI.Services",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Services\\EntitiesMetadataConfigurationAPI.Services.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Models\\EntitiesMetadataConfigurationAPI.Models.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Models\\EntitiesMetadataConfigurationAPI.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.csproj",
+        "projectName": "EntitiesMetadataConfigurationAPI",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Models\\EntitiesMetadataConfigurationAPI.Models.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Models\\EntitiesMetadataConfigurationAPI.Models.csproj"
+              },
+              "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Services\\EntitiesMetadataConfigurationAPI.Services.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\GitRepo\\EntitiesMetadataConfigurationAPI\\EntitiesMetadataConfigurationAPI.Services\\EntitiesMetadataConfigurationAPI.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
